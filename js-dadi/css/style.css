@@ -1,0 +1,108 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite;
+}
+
+
+.container{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.dice{
+    position: relative;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-right{
+    right: 15px;
+    top: 15px;
+}
+
+.bottom-left{
+    left: 15px;
+    bottom: 15px;
+}
+
+.top-left{
+    left: 15px;
+    top: 15px;
+}
+
+.bottom-right{
+    bottom: 15px;
+    right: 15px;
+}
+
+.center-left{
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.center-right{
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 60px;
+    position: absolute;
+}
+
+.vertical-line{
+    height: 85vh;
+    width: 2px;
+    background-color: antiquewhite;
+}
+
+#userText{
+    margin-bottom: 10px;
+}
+
+#computerText{
+    margin-bottom: 10px;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-green{
+    color: green;
+}
